@@ -21,6 +21,13 @@ export const site = {
 
 export const experience = [
   {
+    company: "Ador Ltd.",
+    role: "Software Engineer Intern",
+    period: "Sep 2026 - Present",
+    location: "On-site (Pune , IN)",
+    description: "Currently Working on a project to connect AI Agents to MongoDB using a MCP server",
+  },
+  {
     company: "RedHunt Labs",
     role: "AI/ML Security Intern",
     period: "Jan 2026 - Jun 2026",
