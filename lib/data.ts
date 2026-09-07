@@ -45,6 +45,14 @@ export const experience = [
 
 export const projects = [
   {
+    title: "Memoria",
+    description: "Agentic Memory Layer for coding harnesses exposed via MCP Server.",
+    stack: ["Next.js", "TypeScript", "Tailwind", "Postgres-Neon" , "Python" , "MCP"],
+    media: { type: "video" as const, src: "/projects/memoria/memoria.mp4" , alt : "Memoria mp4"},
+    github: "https://github.com/JayTheCoder77/memoria",
+    website: "https://memoria-cloud.vercel.app",
+  },
+  {
     title: "Rio",
     description: "Code Reviews via Github PR's and locally via CLI.",
     stack: ["Next.js", "TypeScript", "Tailwind", "Postgres-Neon" , "Upstash - Redis" , "Typer" , "Langgraph" , "Langchain" , "Python"],
