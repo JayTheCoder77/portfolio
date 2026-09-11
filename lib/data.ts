@@ -71,7 +71,7 @@ export const projects = [
     title: "Wovn",
     description: "Multi agent tool for building documentation for any github repository.",
     stack: ["Next.js", "Python", "FastAPI", "Multi Agents" , "RAG" , "Tree-Sitters"],
-    media: { type: "video" as const, src: "/projects/wovn/wovn.mp4" , alt : "Wovn mp4"},
+    media: { type: "image" as const, src: "/projects/wovn/wovn.png", alt: "Wovn screenshot" },
     github: "https://github.com/JayTheCoder77/Wovn",
   },
 ];
