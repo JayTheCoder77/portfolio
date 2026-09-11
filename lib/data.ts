@@ -67,6 +67,13 @@ export const projects = [
     media: { type: "image" as const, src: "/projects/quizify/quizify.png", alt: "Quizify screenshot" },
     github: "https://github.com/JayTheCoder77/AgenticRagQuizGenerator",
   },
+  {
+    title: "Wovn",
+    description: "Multi agent tool for building documentation for any github repository.",
+    stack: ["Next.js", "Python", "FastAPI", "Multi Agents" , "RAG" , "Tree-Sitters"],
+    media: { type: "video" as const, src: "/projects/wovn/wovn.mp4" , alt : "Wovn mp4"},
+    github: "https://github.com/JayTheCoder77/Wovn",
+  },
 ];
 
 export const hackathons = [
