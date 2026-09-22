@@ -53,6 +53,14 @@ export const projects = [
     website: "https://memoria-cloud.vercel.app",
   },
   {
+    title: "Zox",
+    description: "Local coding harness that helps you write code faster and more efficiently.",
+    stack: ["Next.js", "TypeScript", "npm", "Ink" , "Hooks" , "Evals" , "Observability" , "MCP" , "Skills" , "Subagent deployment"],
+    media: { type: "video" as const, src: "/projects/zox/zox.mp4" , alt : "Zox mp4"},
+    github: "https://github.com/JayTheCoder77/Zox",
+    website: "https://zox-web.vercel.app",
+  },
+  {
     title: "Rio",
     description: "Code Reviews via Github PR's and locally via CLI.",
     stack: ["Next.js", "TypeScript", "Tailwind", "Postgres-Neon" , "Upstash - Redis" , "Typer" , "Langgraph" , "Langchain" , "Python"],
