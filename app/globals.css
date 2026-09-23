@@ -21,6 +21,7 @@
   --color-border: var(--border);
   --font-sans: var(--font-inter);
   --font-mono: var(--font-jetbrains);
+  --font-hand: var(--font-hand);
 }
 
 body {
@@ -31,4 +32,25 @@ body {
 
 .section-label {
   @apply text-xs font-medium tracking-widest uppercase text-muted mb-8;
+}
+
+@keyframes hint-wiggle {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(-5deg) translateY(-2px);
+  }
+}
+
+.animate-hint-wiggle {
+  animation: hint-wiggle 2.6s ease-in-out infinite;
+  transform-origin: bottom left;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-hint-wiggle {
+    animation: none;
+  }
 }

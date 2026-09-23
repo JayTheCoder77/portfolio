@@ -1,6 +1,7 @@
 export const site = {
   name: "Jayant Iyer",
   avatar: "/profile.png",
+  avatarAlt: "/profile-alt.png",
   bio: [
     "AI Engineer from Pune, India.",
     "I love to build.",

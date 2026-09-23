@@ -31,7 +31,7 @@ export function SocialsAndResume({
       </ul>
       <a
         href={resumeHref}
-        className="text-sm text-[var(--muted)] transition-opacity hover:text-[var(--fg)] hover:opacity-70"
+        className="text-xl font-semibold text-[var(--fg)] transition-opacity hover:opacity-70"
       >
         {resumeLabel}
       </a>
