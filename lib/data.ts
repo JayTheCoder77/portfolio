@@ -6,6 +6,28 @@ export const site = {
     "AI Engineer from Pune, India.",
     "I love to build.",
   ],
+  hobbies: [
+    {
+      label: "Physical",
+      items: ["Football", "Weightlifting", "Swimming", "Running"],
+      note: "Mostly football and lifting — movement keeps me sharp.",
+    },
+    {
+      label: "Intellectual",
+      items: ["German", "Spanish", "Mini-apps for everyday problems"],
+      note: "Learning languages and building tiny tools to solve small problems.",
+    },
+    {
+      label: "Social",
+      items: ["Random events", "Meeting new people", "New perspectives"],
+      note: "Showing up to random events and understanding how others think.",
+    },
+    {
+      label: "Creative",
+      items: ["Poster design", "Websites", "Wallpapers", "Video editing"],
+      note: "Designing posters, sites and wallpapers, plus the occasional edit.",
+    },
+  ],
   socials: [
     { label: "X/Twitter", href: "https://x.com/JV2077" },
     { label: "GitHub", href: "https://github.com/JayTheCoder77" },

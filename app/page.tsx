@@ -5,6 +5,7 @@ import { Intro } from "@/components/Intro";
 import { SocialsAndResume } from "@/components/SocialsAndResume";
 import { SubtleGridBackground } from "@/components/SubtleGridBackground";
 import { ExperienceList } from "@/components/ExperienceList";
+import { Hobbies } from "@/components/Hobbies";
 import { ProjectCard } from "@/components/ProjectCard";
 import { TechFooter } from "@/components/TechFooter";
 import { Hackathons } from "@/components/Hackathons";
@@ -51,6 +52,7 @@ export default function Home() {
                 </span>
               </div>
               <Intro name={site.name} lines={site.bio} />
+              <Hobbies items={site.hobbies} />
               <SocialsAndResume
                 socials={site.socials}
                 resumeHref={site.resume.href}
