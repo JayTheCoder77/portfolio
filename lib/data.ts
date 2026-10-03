@@ -44,11 +44,18 @@ export const site = {
 
 export const experience = [
   {
+    company: "Freigh AI",
+    role: "AI Engineer",
+    period: "Oct 2026 - Present",
+    location: "Hybrid (Pune , IN)",
+    description: "Working on FreightAI product and crm ecosystem",
+  },
+  {
     company: "Ador Ltd.",
     role: "Software Engineer Intern",
-    period: "Sep 2026 - Present",
+    period: "Sep 2026 - Oct 2026",
     location: "On-site (Pune , IN)",
-    description: "Currently Working on a project to connect AI Agents to MongoDB using a MCP server",
+    description: "Worked on a project connecting AI Agents to MongoDB using a custom MCP Server and created agentic workflows for business automations",
   },
   {
     company: "RedHunt Labs",
